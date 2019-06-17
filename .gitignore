@@ -3,3 +3,5 @@
 /err
 /std
 /target/
+*.iml
+.idea/

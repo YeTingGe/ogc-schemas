@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip basedir="/Users/Ting/GitHub/ogc-schemas/gml-profiles/geoshape/target/generated-sources/xjc" destfile="/Users/Ting/GitHub/ogc-schemas/gml-profiles/geoshape/target/gml-pidf-lo-shape-v_1_0-2.6.2-jsonschemas.zip">
+    <patternset>
+      <include name="**/*.jsonschema"/>
+    </patternset>
+  </zip>
+</target>
+</project>

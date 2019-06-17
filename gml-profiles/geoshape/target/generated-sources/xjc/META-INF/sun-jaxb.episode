@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.11 生成的
+请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2019.06.14 时间 02:41:24 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.opengis.net/pidflo/1.0">
+    <schemaBindings map="false">
+      <package name="net.opengis.pidflo._1"/>
+    </schemaBindings>
+    <bindings scd="~tns:CircleType">
+      <class ref="net.opengis.pidflo._1.CircleType"/>
+    </bindings>
+    <bindings scd="~tns:EllipseType">
+      <class ref="net.opengis.pidflo._1.EllipseType"/>
+    </bindings>
+    <bindings scd="~tns:ArcBandType">
+      <class ref="net.opengis.pidflo._1.ArcBandType"/>
+    </bindings>
+    <bindings scd="~tns:PrismType">
+      <class ref="net.opengis.pidflo._1.PrismType"/>
+    </bindings>
+    <bindings scd="~tns:SphereType">
+      <class ref="net.opengis.pidflo._1.SphereType"/>
+    </bindings>
+    <bindings scd="~tns:EllipsoidType">
+      <class ref="net.opengis.pidflo._1.EllipsoidType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.opengis.net/gml">
+    <schemaBindings map="false">
+      <package name="net.opengis.gml"/>
+    </schemaBindings>
+    <bindings scd="~tns:AbstractSurfaceType">
+      <class ref="net.opengis.gml.AbstractSurfaceType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractGeometricPrimitiveType">
+      <class ref="net.opengis.gml.AbstractGeometricPrimitiveType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractGeometryType">
+      <class ref="net.opengis.gml.AbstractGeometryType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractGMLType">
+      <class ref="net.opengis.gml.AbstractGMLType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractSolidType">
+      <class ref="net.opengis.gml.AbstractSolidType"/>
+    </bindings>
+    <bindings scd="~tns:MeasureType">
+      <class ref="net.opengis.gml.MeasureType"/>
+    </bindings>
+    <bindings scd="~tns:PointType">
+      <class ref="net.opengis.gml.PointType"/>
+    </bindings>
+    <bindings scd="~tns:PointPropertyType">
+      <class ref="net.opengis.gml.PointPropertyType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractCurveType">
+      <class ref="net.opengis.gml.AbstractCurveType"/>
+    </bindings>
+    <bindings scd="~tns:CurvePropertyType">
+      <class ref="net.opengis.gml.CurvePropertyType"/>
+    </bindings>
+    <bindings scd="~tns:LineStringType">
+      <class ref="net.opengis.gml.LineStringType"/>
+    </bindings>
+    <bindings scd="~tns:DirectPositionType">
+      <class ref="net.opengis.gml.DirectPositionType"/>
+    </bindings>
+    <bindings scd="~tns:DirectPositionListType">
+      <class ref="net.opengis.gml.DirectPositionListType"/>
+    </bindings>
+    <bindings scd="~tns:EnvelopeType">
+      <class ref="net.opengis.gml.EnvelopeType"/>
+    </bindings>
+    <bindings scd="~tns:SurfacePropertyType">
+      <class ref="net.opengis.gml.SurfacePropertyType"/>
+    </bindings>
+    <bindings scd="~tns:PolygonType">
+      <class ref="net.opengis.gml.PolygonType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractRingType">
+      <class ref="net.opengis.gml.AbstractRingType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractRingPropertyType">
+      <class ref="net.opengis.gml.AbstractRingPropertyType"/>
+    </bindings>
+    <bindings scd="~tns:LinearRingType">
+      <class ref="net.opengis.gml.LinearRingType"/>
+    </bindings>
+    <bindings scd="~tns:CurveType">
+      <class ref="net.opengis.gml.CurveType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractCurveSegmentType">
+      <class ref="net.opengis.gml.AbstractCurveSegmentType"/>
+    </bindings>
+    <bindings scd="~tns:CurveSegmentArrayPropertyType">
+      <class ref="net.opengis.gml.CurveSegmentArrayPropertyType"/>
+    </bindings>
+    <bindings scd="~tns:LineStringSegmentType">
+      <class ref="net.opengis.gml.LineStringSegmentType"/>
+    </bindings>
+    <bindings scd="~tns:ArcByCenterPointType">
+      <class ref="net.opengis.gml.ArcByCenterPointType"/>
+    </bindings>
+    <bindings scd="~tns:CircleByCenterPointType">
+      <class ref="net.opengis.gml.CircleByCenterPointType"/>
+    </bindings>
+    <bindings scd="~tns:SurfaceType">
+      <class ref="net.opengis.gml.SurfaceType"/>
+    </bindings>
+    <bindings scd="~tns:AbstractSurfacePatchType">
+      <class ref="net.opengis.gml.AbstractSurfacePatchType"/>
+    </bindings>
+    <bindings scd="~tns:SurfacePatchArrayPropertyType">
+      <class ref="net.opengis.gml.SurfacePatchArrayPropertyType"/>
+    </bindings>
+    <bindings scd="~tns:PolygonPatchType">
+      <class ref="net.opengis.gml.PolygonPatchType"/>
+    </bindings>
+    <bindings scd="~tns:RectangleType">
+      <class ref="net.opengis.gml.RectangleType"/>
+    </bindings>
+    <bindings scd="~tns:PolyhedralSurfaceType">
+      <class ref="net.opengis.gml.PolyhedralSurfaceType"/>
+    </bindings>
+    <bindings scd="~tns:PolygonPatchArrayPropertyType">
+      <class ref="net.opengis.gml.PolygonPatchArrayPropertyType"/>
+    </bindings>
+    <bindings scd="~tns:SolidType">
+      <class ref="net.opengis.gml.SolidType"/>
+    </bindings>
+    <bindings scd="~tns:LengthType">
+      <class ref="net.opengis.gml.LengthType"/>
+    </bindings>
+    <bindings scd="~tns:AngleType">
+      <class ref="net.opengis.gml.AngleType"/>
+    </bindings>
+    <bindings scd="~tns:GeometryPropertyType">
+      <class ref="net.opengis.gml.GeometryPropertyType"/>
+    </bindings>
+    <bindings scd="~tns:GeometryArrayPropertyType">
+      <class ref="net.opengis.gml.GeometryArrayPropertyType"/>
+    </bindings>
+    <bindings scd="~tns:SignType">
+      <typesafeEnumClass ref="net.opengis.gml.SignType"/>
+    </bindings>
+    <bindings scd="~tns:CurveInterpolationType">
+      <typesafeEnumClass ref="net.opengis.gml.CurveInterpolationType"/>
+    </bindings>
+    <bindings scd="~tns:SurfaceInterpolationType">
+      <typesafeEnumClass ref="net.opengis.gml.SurfaceInterpolationType"/>
+    </bindings>
+  </bindings>
+</bindings>
+

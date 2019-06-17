@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.11 生成的
+请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2019.06.14 时间 01:09:07 PM CST 
+
+  -->
+  <bindings xmlns:tns="http://www.opengis.net/pidflo/1.0" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="net.opengis.pidflo._1"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:CircleType">
+      <class ref="net.opengis.pidflo._1.CircleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EllipseType">
+      <class ref="net.opengis.pidflo._1.EllipseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArcBandType">
+      <class ref="net.opengis.pidflo._1.ArcBandType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PrismType">
+      <class ref="net.opengis.pidflo._1.PrismType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SphereType">
+      <class ref="net.opengis.pidflo._1.SphereType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EllipsoidType">
+      <class ref="net.opengis.pidflo._1.EllipsoidType"/>
+    </bindings>
+  </bindings>
+</bindings>
